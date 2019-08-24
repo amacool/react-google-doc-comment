@@ -1,0 +1,26 @@
+.parent_div {
+ display: flex;
+ flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+ padding-top:25vh;
+  margin: 0 auto;
+ max-width: 1200px;
+}
+.comment-header-text {
+ width: 100%;
+}
+.group_dropdown {
+ text-align: left;
+ padding-bottom: 30px;
+}
+p {
+ padding: 0;
+ margin: 0;
+}
+.google-singup-button {
+ display: none !important;
+}

@@ -1,0 +1,51 @@
+.comment-component-div {
+  width: 95%;
+  float: right;
+  -webkit-box-shadow: 1px 0px 17px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 0px 17px -8px rgba(0,0,0,0.75);
+  box-shadow: 1px 0px 17px -8px rgba(0,0,0,0.75);
+}
+.commentChild-top i{
+  font-size: 30px;
+}
+.comment-header-text {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 50px 10px;
+  background-color: #f5f5f5;
+}
+.commentChild-parent {
+  padding: 20px;
+  border-bottom: 2px solid  rgba(0, 0, 0, 0.14);
+}
+.commentChild-parent input {
+  margin-top: 20px;
+}
+.commentChild-parent p {
+  text-align: left;
+}
+.commentChild-parent div {
+  text-align: left;
+}
+.comment-component-div-parent {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.comment-reply-section {
+  padding-top: 20px;
+  justify-content: right;
+}
+.comment-name-style {
+  font-size: 17px;
+  font-weight: 600;
+}
+.comment-date-style {
+  color: #00000066;
+}
+.comment-comment-style {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.comment-name-page {
+  padding-left: 20px;
+}

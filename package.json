@@ -1,0 +1,58 @@
+{
+  "name": "googleDocControl",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.19.8",
+    "auth0-js": "^9.11.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "install": "^0.12.2",
+    "query-string": "^6.8.1",
+    "react": "^16.4.1",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.4.1",
+    "react-google-drive-rest-api": "^1.1.6",
+    "react-google-login": "^5.0.4",
+    "react-redux": "5.0.7",
+    "react-router": "^2.8.1",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^0.16.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "set port=3000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy_local": "http://localhost:8000",
+  "proxy": "https://www.pancakepimp.com",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": "css"
+      }
+    ]
+  ]
+}
